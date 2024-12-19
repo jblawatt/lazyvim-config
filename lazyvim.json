@@ -8,7 +8,6 @@
     "lazyvim.plugins.extras.editor.mini-diff",
     "lazyvim.plugins.extras.editor.outline",
     "lazyvim.plugins.extras.editor.refactoring",
-    "lazyvim.plugins.extras.editor.telescope",
     "lazyvim.plugins.extras.lang.ansible",
     "lazyvim.plugins.extras.lang.docker",
     "lazyvim.plugins.extras.lang.elm",
@@ -24,6 +23,7 @@
     "lazyvim.plugins.extras.lang.typescript",
     "lazyvim.plugins.extras.lang.yaml",
     "lazyvim.plugins.extras.lsp.none-ls",
+    "lazyvim.plugins.extras.test.core",
     "lazyvim.plugins.extras.util.dot",
     "lazyvim.plugins.extras.util.gitui"
   ],
