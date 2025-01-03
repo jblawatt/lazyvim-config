@@ -149,11 +149,16 @@ return {
   -- { "sar/extra-darkplus.nvim" },
   -- { "timofurrer/edelweiss" },
   -- { "shrik3/vision.nvim" },
-
+  { "savq/melange-nvim" },
+  { "ramojus/mellifluous.nvim" },
+  { "dgox16/oldworld.nvim" },
+  { "killitar/obscure.nvim" },
+  { "Mofiqul/adwaita.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine-main",
+      -- colorscheme = "rose-pine-main",
+      colorscheme = "moonfly",
     },
   },
 }

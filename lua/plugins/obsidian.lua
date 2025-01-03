@@ -3,6 +3,7 @@ return {
   -- the obsidian vault in this default config  ~/obsidian-vault
   -- If you want to use the home shortcut '~' here you need to call 'vim.fn.expand':
   -- event = { "bufreadpre " .. vim.fn.expand "~" .. "/my-vault/**.md" },
+  lazy = false,
   event = { "BufReadPre  */iCloud~md~obsidian/*.md" },
   dependencies = {
     "nvim-lua/plenary.nvim",
@@ -32,11 +33,14 @@ return {
     dir = vim.env.HOME .. "/Library/Mobile Documents/iCloud~md~obsidian/Documents/Notizen/Notizen", -- specify the vault location. no need to call 'vim.fn.expand' here
     use_advanced_uri = true,
     finder = "telescope.nvim",
-
     templates = {
       subdir = "templates",
       date_format = "%Y-%m-%d-%a",
       time_format = "%H:%M",
+    },
+    daily_notes = {
+      folder = "Journal",
+      date_format = "%Y/%Y-%m-%d",
     },
 
     note_frontmatter_func = function(note)
