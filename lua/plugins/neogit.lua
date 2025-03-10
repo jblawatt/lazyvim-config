@@ -11,5 +11,8 @@ return {
       "echasnovski/mini.pick", -- optional
     },
     config = true,
+    opts = {
+      kind = "floating",
+    },
   },
 }

@@ -101,7 +101,7 @@ return {
   -- { "cpea2506/one_monokai.nvim" },
   --
   -- { "ntk148v/komau.vim" },
-  -- { "dgox16/oldworld.nvim" },
+  { "dgox16/oldworld.nvim" },
   -- {
   --   -- Theme inspired by Atom
   --   -- 'nyoom-engineering/oxocarbon.nvim',
@@ -158,7 +158,8 @@ return {
     "LazyVim/LazyVim",
     opts = {
       -- colorscheme = "rose-pine-main",
-      colorscheme = "moonfly",
+      -- colorscheme = "moonfly",
+      colorscheme = "oldworld",
     },
   },
 }
